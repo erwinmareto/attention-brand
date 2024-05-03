@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <section className="max-container">
       <div className="w-full min-h-screen lg:flex">
-        <div className="xl:w-2/5 flex flex-col max-lg:items-center justify-center bg-hero bg-left px-4 md:padding-x max-lg:padding-y max-lg:text-center">
-          <h1 className="text-8xl max-sm:text-[72px] max-sm:leading-[82px]">
+        <div className="xl:w-2/5 flex flex-col max-lg:items-center justify-center bg-hero bg-left px-4 py-28 md:padding-x max-lg:text-center">
+          <h1 className="text-8xl font-montserrat max-sm:text-[72px] max-sm:leading-[82px]">
             Your
             <br />
             <span className="font-zing">ATTENTION!</span>
@@ -18,12 +18,11 @@ const Hero = () => {
             <span className="text-dark-red font-bold italic">nyeleneh</span> dan
             memiliki harga yang terjangkau
           </p>
-          <div>
+          <div className="mt-10">
             <Button>Our Products</Button>
           </div>
         </div>
         <div className="bg-red-300 xl:w-3/5">
-          {/* <h1 className="text-8xl">HElooooooo</h1> */}
           <img
             src={mainShirt}
             alt="shirt"

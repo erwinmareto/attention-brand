@@ -1,6 +1,6 @@
 const Button = ({ children }) => {
   return (
-    <button className="flex gap-2 text-primary font-montserrat bg-dark-red rounded-full px-8 py-5 mt-8 transition hover:scale-105 active:scale-90">
+    <button className="flex gap-2 text-primary font-montserrat bg-dark-red rounded-full px-6 py-4  transition hover:scale-105 active:scale-90">
       {children}
       <svg
         xmlns="http://www.w3.org/2000/svg"

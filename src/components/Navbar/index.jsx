@@ -4,11 +4,11 @@ import { navLinks } from "../../constants";
 import { useState } from "react";
 import MobileMenu from "./MobileMenu";
 
-export function Navbar() {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <header className="padding-x bg-dark-red">
+      <header className="padding-x bg-dark-red absolute w-full">
         <nav className="flex justify-between items-center">
           <a href="/">
             <img src={navLogo} width={80} height={80} />
@@ -29,4 +29,6 @@ export function Navbar() {
       {isOpen && <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />}
     </>
   );
-}
+};
+
+export default Navbar;
