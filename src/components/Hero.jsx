@@ -4,8 +4,8 @@ import Button from "../parts/Button";
 const Hero = () => {
   return (
     <section className="max-container">
-      <div className="w-full min-h-screen lg:flex">
-        <div className="xl:w-2/5 flex flex-col max-lg:items-center justify-center bg-hero bg-left px-4 py-28 md:padding-x max-lg:text-center">
+      <div className="w-full min-h-screen lg:flex bg-hero bg-left">
+        <div className="xl:w-2/5 flex flex-col max-lg:items-center justify-center px-4 py-28 md:padding-x max-lg:text-center">
           <h1 className="text-8xl font-montserrat max-sm:text-[72px] max-sm:leading-[82px]">
             Your
             <br />

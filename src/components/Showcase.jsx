@@ -15,11 +15,11 @@ const Showcase = () => {
       </div>
 
       <div className="animate-marquee2 whitespace-nowrap flex gap-4">
-        <h1 className="text-8xl font-zing">ATTENTION!</h1>
-        <h1 className="text-8xl font-zing">ATTENTION!</h1>
-        <h1 className="text-8xl font-zing">ATTENTION!</h1>
-        <h1 className="text-8xl font-zing">ATTENTION!</h1>
-        <h1 className="text-8xl font-zing">ATTENTION!</h1>
+        <h1 className="text-4xl lg:text-8xl font-zing">ATTENTION!</h1>
+        <h1 className="text-4xl lg:text-8xl font-zing">ATTENTION!</h1>
+        <h1 className="text-4xl lg:text-8xl font-zing">ATTENTION!</h1>
+        <h1 className="text-4xl lg:text-8xl font-zing">ATTENTION!</h1>
+        <h1 className="text-4xl lg:text-8xl font-zing">ATTENTION!</h1>
       </div>
 
       <div className="relative flex justify-center items-center gap-1 my-10">
@@ -51,11 +51,11 @@ const Showcase = () => {
       </div>
 
       <div className="animate-marquee2 whitespace-nowrap flex gap-4">
-        <h1 className="text-8xl font-zing">ATTENTION!</h1>
-        <h1 className="text-8xl font-zing">ATTENTION!</h1>
-        <h1 className="text-8xl font-zing">ATTENTION!</h1>
-        <h1 className="text-8xl font-zing">ATTENTION!</h1>
-        <h1 className="text-8xl font-zing">ATTENTION!</h1>
+        <h1 className="text-4xl lg:text-8xl font-zing">ATTENTION!</h1>
+        <h1 className="text-4xl lg:text-8xl font-zing">ATTENTION!</h1>
+        <h1 className="text-4xl lg:text-8xl font-zing">ATTENTION!</h1>
+        <h1 className="text-4xl lg:text-8xl font-zing">ATTENTION!</h1>
+        <h1 className="text-4xl lg:text-8xl font-zing">ATTENTION!</h1>
       </div>
 
       <div className="flex flex-col justify-center items-center gap-16 my-32">
