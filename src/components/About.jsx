@@ -1,6 +1,6 @@
 import { mainShirt } from "../assets/images";
-import Button from "./Button";
-import Heading from "./Heading";
+import Button from "../parts/Button";
+import Heading from "../parts/Heading";
 
 const About = () => {
   return (

@@ -1,5 +1,5 @@
 import { mainShirt } from "../assets/images";
-import Button from "./Button";
+import Button from "../parts/Button";
 
 const Hero = () => {
   return (
