@@ -4,32 +4,21 @@ import Button from "../parts/Button";
 const Hero = () => {
   return (
     <section className="max-container">
-      <div className="w-full min-h-screen lg:flex bg-hero bg-left">
-        <div className="xl:w-2/5 flex flex-col max-lg:items-center justify-center px-4 py-28 md:padding-x max-lg:text-center">
-          <h1 className="text-8xl font-montserrat max-sm:text-[72px] max-sm:leading-[82px]">
-            Your
-            <br />
-            <span className="font-zing">ATTENTION!</span>
-            <br />
-            Please
+      <div className="w-full min-h-screen flex justify-center items-center bg-hero bg-center">
+        <div className="flex flex-col justify-center items-center text-center w-full gap-4">
+          <h1 className="text-4xl lg:text-[10rem] font-zing">
+            {/* Your
+            <br /> */}
+            ATTENTION!
+            {/* <br />
+            Please */}
           </h1>
-          <p className="font-montserrat max-w-sm text-primary text-lg leading-7 mt-6 max-sm:text-[1rem]">
-            Brand kaos dengan desain yang{" "}
+          <p className="font-montserrat text-xl text-primary max-w-2xl mt-10">
+            Merek kaos dengan desain yang{" "}
             <span className="text-dark-red font-bold italic">nyeleneh</span> dan
             memiliki harga yang terjangkau
           </p>
-          <div className="mt-10">
-            <Button>Our Products</Button>
-          </div>
-        </div>
-        <div className="bg-red-300 xl:w-3/5">
-          <img
-            src={mainShirt}
-            alt="shirt"
-            // width={610}
-            // height={500}
-            className="object-cover"
-          />
+          <Button>Products</Button>
         </div>
       </div>
     </section>
