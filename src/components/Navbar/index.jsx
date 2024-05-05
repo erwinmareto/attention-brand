@@ -16,7 +16,10 @@ const Navbar = () => {
           <ul className="flex flex-1 justify-center items-center gap-16 max-lg:hidden font-montserrat">
             {navLinks.map((link) => (
               <li key={link.href}>
-                <a href={link.href} className="">
+                <a
+                  href={link.href}
+                  className="transition hover:text-slate-gray"
+                >
                   {link.label}
                 </a>
               </li>
