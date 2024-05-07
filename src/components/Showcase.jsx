@@ -1,11 +1,12 @@
 import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { mainShirt, shirt1, shirt2, shirt3, shirt4 } from "../assets/images";
-
 import Button from "../parts/Button";
+import { showcaseImages } from "../constants";
 
 const Showcase = () => {
+  const showcaseRef = useRef(null);
+
   const imgRef = useRef(null);
 
   useGSAP(
@@ -98,10 +99,14 @@ const Showcase = () => {
       //   }
       // );
     },
-    { scope: "#showcase" }
+    { scope: showcaseRef }
   );
   return (
-    <section id="showcase" className="max-container py-10 lg:py-16 xl:py-20">
+    <section
+      ref={showcaseRef}
+      id="showcase"
+      className="max-container py-10 lg:py-16 xl:py-20"
+    >
       <div className="flex justify-center items-center mb-32">
         <h1 className="text-2xl text-center font-zing lg:text-4xl text-balance">
           <span className="font-extrabold text-4xl lg:text-8xl">
@@ -125,36 +130,15 @@ const Showcase = () => {
         ref={imgRef}
         className="relative flex justify-center items-center gap-1 my-10"
       >
-        <img
-          src={mainShirt}
-          alt="shirt"
-          className="images aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-        />
-        <img
-          src={shirt1}
-          alt="shirt"
-          className="images aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-        />
-        <img
-          src={shirt2}
-          alt="shirt"
-          className="images aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-        />
-        <img
-          src={shirt3}
-          alt="shirt"
-          className="images aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-        />
-        <img
-          src={shirt4}
-          alt="shirt"
-          className="images aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-        />
-        {/* <img
-          src={shirt3}
-          alt="shirt"
-          className="images aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-        /> */}
+        {showcaseImages.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`showcase-${index + 1}`}
+            className="images aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
+          />
+        ))}
+
       </div>
       {/* <div
         // ref={imgRef}

@@ -16,6 +16,11 @@
   scroll-behavior: smooth;
 }
 
+*::selection {
+  background-color: #0e0e0e;
+  color: #fffbf5;
+}
+
 body {
   background-color: #fffbf5;
 }

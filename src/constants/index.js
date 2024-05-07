@@ -1,5 +1,14 @@
 import { PiButterflyBold, PiMaskHappyBold } from "react-icons/pi";
-import { mainShirt } from "../assets/images";
+import {
+  item1,
+  item2,
+  mainShirt,
+  pool,
+  shirt1,
+  shirt2,
+  shirt3,
+  shirt4,
+} from "../assets/images";
 import { GiLion } from "react-icons/gi";
 import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import { FaRegSun } from "react-icons/fa";
@@ -17,9 +26,9 @@ export const productsList = [
     name: "Shirt 1",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
   },
-  { img: mainShirt, name: "Shirt 2", info: "Lorem ipsum dolor sit amet. " },
+  { img: item1, name: "Shirt 2", info: "Lorem ipsum dolor sit amet. " },
   {
-    img: mainShirt,
+    img: item2,
     name: "Shirt 3",
     info: "Lorem ipsum dolor sit amet,sit amet ",
   },
@@ -58,3 +67,5 @@ export const benefitsList = [
     icon: FaRegSun,
   },
 ];
+
+export const showcaseImages = [pool, shirt1, shirt2, shirt3, shirt4];
