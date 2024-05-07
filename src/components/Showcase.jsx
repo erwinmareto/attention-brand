@@ -6,6 +6,7 @@ import { showcaseImages } from "../constants";
 
 const Showcase = () => {
   const showcaseRef = useRef(null);
+
   const imgRef = useRef(null);
 
   useGSAP(
@@ -137,6 +138,7 @@ const Showcase = () => {
             className="images aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
           />
         ))}
+
       </div>
       {/* <div
         // ref={imgRef}
