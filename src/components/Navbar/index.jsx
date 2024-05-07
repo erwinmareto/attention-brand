@@ -1,14 +1,14 @@
+import { useState } from "react";
 import BurgerMenu from "./BurgerMenu";
+import MobileMenu from "./MobileMenu";
 import { navLogo } from "../../assets/images";
 import { navLinks } from "../../constants";
-import { useState } from "react";
-import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <header className="padding-x bg-dark-red absolute w-full">
+      <header className="padding-x bg-dark-red absolute z-20 w-full">
         <nav className="flex justify-between items-center">
           <a href="/">
             <img src={navLogo} width={80} height={80} />
