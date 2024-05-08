@@ -39,23 +39,25 @@ const Products = () => {
     { scope: productRef }
   );
   return (
-    <section
-      ref={productRef}
-      id="products"
-      className="max-container padding-x py-10 lg:py-16 xl:py-20"
-    >
-      <div>
-        <Heading
-          title="Our Products"
-          info="Experience top-notch quality and style with our sough-after selections. Discover a world of comfort, design, and value"
-        />
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 sm:gap-4 gap-14">
-          {productsList.map((product) => (
-            <ProductCard key={product.name} {...product} />
-          ))}
+    <>
+      <section
+        ref={productRef}
+        id="products"
+        className="max-container padding-x py-10 lg:py-16 xl:py-20"
+      >
+        <div>
+          <Heading
+            title="Our Products"
+            info="Experience top-notch quality and style with our sough-after selections. Discover a world of comfort, design, and value"
+          />
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 sm:gap-4 gap-14">
+            {productsList.map((product) => (
+              <ProductCard key={product.name} {...product} />
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 export default Products;
