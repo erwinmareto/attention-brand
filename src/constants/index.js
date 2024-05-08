@@ -24,17 +24,29 @@ export const productsList = [
     img: mainShirt,
     name: "Shirt 1",
     info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
+    detail:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
-  { img: item1, name: "Shirt 2", info: "Lorem ipsum dolor sit amet. " },
+  {
+    img: item1,
+    name: "Shirt 2",
+    info: "Lorem ipsum dolor sit amet. ",
+    detail:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  },
   {
     img: item2,
     name: "Shirt 3",
     info: "Lorem ipsum dolor sit amet,sit amet ",
+    detail:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
   {
     img: mainShirt,
     name: "Shirt 4",
     info: "Lorem ipsum dolort, tur adipisicing elit. ",
+    detail:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
 ];
 
@@ -68,3 +80,5 @@ export const benefitsList = [
 ];
 
 export const showcaseImages = [pool, shirt1, shirt2, shirt3, shirt4];
+
+export const sizes = ["S", "M", "L", "XL"];
