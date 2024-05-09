@@ -49,7 +49,7 @@ export default {
       },
       backgroundImage: {
         hero: "url('assets/images/mainShirt.jpg')",
-        card: "url('assets/images/thumbnail-background.svg')",
+        nav: "url('assets/images/mesh-gradient.png')",
       },
       screens: {
         wide: "1440px",

@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <header className="padding-x bg-dark-red w-full">
+      <header className="padding-x bg-dark-red w-full max-lg:absolute">
         <nav className="flex justify-between items-center">
           <Link to="/">
             <img src={navLogo} width={80} height={80} />

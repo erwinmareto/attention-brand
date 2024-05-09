@@ -1,18 +1,13 @@
 import { useRef } from "react";
-import Button from "../parts/Button";
-import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import Button from "../parts/Button";
 
 const Hero = () => {
   const heroRef = useRef(null);
 
   useGSAP(
     () => {
-      // gsap.fromTo(
-      //   ".hero-img",
-      //   { scaleX: 0 },
-      //   { scaleX: 1, transformOrigin: "top" }
-      // );
       gsap.fromTo(
         ".letter",
         { opacity: 0 },
