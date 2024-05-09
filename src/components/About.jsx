@@ -2,7 +2,7 @@ import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { mainShirt } from "../assets/images";
-import Button from "../parts/Button";
+// import Button from "../parts/Button";
 import Heading from "../parts/Heading";
 
 const About = () => {
@@ -50,7 +50,7 @@ const About = () => {
             young individuals like you to embrace their unique style and become
             trendsetters.
           </Heading>
-          <Button>Learn More</Button>
+          {/* <Button>Learn More</Button> */}
         </div>
         <div className="bg-dark-red">
           <img

@@ -138,7 +138,6 @@ const Showcase = () => {
             className="images aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
           />
         ))}
-
       </div>
       {/* <div
         // ref={imgRef}
@@ -202,11 +201,16 @@ const Showcase = () => {
         <h1 className="text-4xl md:text-8xl font-zing">ATTENTION!</h1>
       </div>
 
-      <div className="flex flex-col justify-center items-center gap-16 my-32">
+      <div
+        id="contacts"
+        className="flex flex-col justify-center items-center gap-16 my-32"
+      >
         <h1 className="text-4xl text-center font-zing lg:text-8xl">
           Express Yourself. Shop Now.
         </h1>
-        <Button>Shop Now</Button>
+        <Button href="https://www.instagram.com/wear.attention?igsh=MTV1OHpmbDNiY2cxdA%3D%3D">
+          Contact Us
+        </Button>
       </div>
     </section>
   );

@@ -5,17 +5,31 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import Showcase from "./components/Showcase";
+import Detail from "./components/Detail";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <main className="relative overflow-hidden">
       <Navbar />
-      <Hero />
-      <Products />
-      <About />
-      <Benefits />
-      <Showcase />
-      <Footer />
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <Products />
+              <About />
+              <Benefits />
+              <Showcase />
+              <Footer />
+            </>
+          }
+        />
+        <Route path="/about" element={<About />} />
+        <Route path={"/products/:id"} element={<Detail />} />
+      </Routes>
     </main>
   );
 }
