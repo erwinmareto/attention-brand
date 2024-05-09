@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import BurgerMenu from "./BurgerMenu";
 import MobileMenu from "./MobileMenu";
 import { navLogo } from "../../assets/images";
@@ -8,11 +9,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <header className="padding-x bg-dark-red absolute z-20 w-full">
+      <header className="padding-x bg-dark-red w-full">
         <nav className="flex justify-between items-center">
-          <a href="/">
+          <Link to="/">
             <img src={navLogo} width={80} height={80} />
-          </a>
+          </Link>
           <ul className="flex flex-1 justify-center items-center gap-16 max-lg:hidden font-montserrat">
             {navLinks.map((link) => (
               <li key={link.href}>

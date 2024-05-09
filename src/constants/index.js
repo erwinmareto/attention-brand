@@ -14,27 +14,67 @@ import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import { FaRegSun } from "react-icons/fa";
 
 export const navLinks = [
-  { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
-  { href: "#benefits", label: "Benefits" },
+  { href: "/#about-us", label: "About Us" },
+  { href: "/#products", label: "Products" },
+  { href: "/#benefits", label: "Benefits" },
+  { href: "/#contacts", label: "Contacts" },
 ];
 
 export const productsList = [
   {
-    img: mainShirt,
-    name: "Shirt 1",
-    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
+    id: 1,
+    img: shirt3,
+    name: "item 2",
+    info: "Tahanan ayang kasus karena mendua.",
   },
-  { img: item1, name: "Shirt 2", info: "Lorem ipsum dolor sit amet. " },
   {
+    id: 2,
+    img: item1,
+    name: "Putih",
+    info: "Bersatu kita teguh, berdua kita waduh tidak mungkin. ",
+  },
+  {
+    id: 3,
     img: item2,
-    name: "Shirt 3",
-    info: "Lorem ipsum dolor sit amet,sit amet ",
+    name: "abu2",
+    info: "Agar tidak tidak dimanfaatkan orang lain jadilah tidak bermanfaat.",
   },
   {
-    img: mainShirt,
-    name: "Shirt 4",
-    info: "Lorem ipsum dolort, tur adipisicing elit. ",
+    id: 4,
+    img: shirt4,
+    name: "item 1",
+    info: "Ada yang bergetar tapi bukan nyali.",
+  },
+];
+
+export const productDetails = [
+  {
+    id: 1,
+    name: "item 1",
+    detail:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum.",
+    images: [mainShirt, shirt1, shirt2, shirt3, shirt4],
+  },
+  {
+    id: 2,
+    name: "Putih",
+    detail:
+      "Putih putih putih putih sit amet consectetur adipisicing elit. Ipsa, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum.",
+    images: [item1, shirt2, shirt1, shirt4, shirt3],
+  },
+  {
+    id: 3,
+    name: "abu2",
+    detail:
+      "abus abu abus abu abu dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum.",
+    images: [item1, shirt4, shirt2, shirt3, shirt1],
+  },
+  {
+    id: 4,
+    name: "item 1",
+    detail:
+      "1111111111111111111111111111111bus abu abu dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum.",
+    images: [shirt4, shirt2, shirt3, item1, shirt1],
   },
 ];
 
@@ -68,3 +108,5 @@ export const benefitsList = [
 ];
 
 export const showcaseImages = [pool, shirt1, shirt2, shirt3, shirt4];
+
+export const sizes = ["S", "M", "L", "XL"];

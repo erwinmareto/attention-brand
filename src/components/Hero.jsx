@@ -68,7 +68,9 @@ const Hero = () => {
             memiliki harga yang terjangkau
           </p>
           <div className="mt-10">
-            <Button>Our Products</Button>
+            <Button href="#products" samePage>
+              Our Products
+            </Button>
           </div>
         </div>
         <div className="bg-red-300 xl:w-2/5">
