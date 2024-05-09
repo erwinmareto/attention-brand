@@ -1,6 +1,6 @@
 const ProductCard = ({ img, name, info }) => {
   return (
-    <article className="flex flex-col">
+    <article className="product-card flex flex-col">
       <div className="bg-dark-red flex justify-center transition hover:scale-105">
         <img
           src={img}
@@ -9,8 +9,10 @@ const ProductCard = ({ img, name, info }) => {
         />
       </div>
       <div className="mt-4">
-        <h3 className="text-2xl font-zing font-semibold">{name}</h3>
-        <p className="font-montserrat text-slate-gray text-sm mt-2">{info}</p>
+        <h3 className="text-2xl font-zing font-semibold b-text">{name}</h3>
+        <p className="font-montserrat text-slate-gray text-sm mt-2 b-text">
+          {info}
+        </p>
       </div>
     </article>
   );

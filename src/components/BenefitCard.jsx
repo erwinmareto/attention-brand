@@ -1,9 +1,15 @@
-const BenefitCard = ({ title, text, icon, center }) => {
+const BenefitCard = ({ title, text, icon, center, index }) => {
   return (
     <article
       className={`flex flex-col justify-center bg-dark-red min-h-[20rem] rounded-3xl p-10 max-md:min-h-[10rem] ${
-        center ? "lg:col-span-2 lg:items-center lg:text-center" : ""
-      }`}
+        center
+          ? "center-card lg:col-span-2 lg:items-center lg:text-center"
+          : index % 3 === 0
+          ? "left-card"
+          : "right-card"
+      }
+      
+      `}
     >
       <div className="w-14 h-14 flex justify-center items-center bg-pale-blue rounded-full ">
         {icon}
