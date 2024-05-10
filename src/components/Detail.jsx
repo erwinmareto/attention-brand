@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { productDetails, sizes } from "../constants";
 import Button from "../parts/Button";
+import { IoIosArrowRoundBack } from "react-icons/io";
 
 const Detail = () => {
   const { id } = useParams();
@@ -34,6 +35,12 @@ const Detail = () => {
           </div>
           <div className="flex flex-col gap-4 max-lg:flex-col-reverse">
             <div className="flex flex-col gap-4">
+              <a
+                href="/#products"
+                className="font-montserrat underline flex items-center"
+              >
+                <IoIosArrowRoundBack className="w-6 h-6" /> back
+              </a>
               <h3 className="font-zing text-4xl">{name}</h3>
               <div className="flex items-center gap-2 ">
                 <h3 className="text-xl font-zing">Sizes: </h3>
