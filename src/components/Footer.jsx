@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="max-container bg-charcoal padding-x py-10 lg:py-16 xl:py-20">
       <div className="flex justify-between items-center w-full">
-        <p className="font-montserrat text-slate-gray text-sm leading-7 md:text-lg">
+        <p className="font-montserrat text-primary text-sm leading-7 md:text-lg">
           &copy; Attention. All rights reserved.
         </p>
 

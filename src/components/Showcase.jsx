@@ -22,9 +22,6 @@ const Showcase = () => {
           duration: 3,
           repeat: -1,
           yoyo: true,
-          // modifiers: {
-          //   x: gsap.utils.unitize(gsap.utils.wrap(0, -width)),
-          // },
         }
       );
 
@@ -37,67 +34,8 @@ const Showcase = () => {
           ease: "none",
           duration: 3,
           repeat: -1,
-          // modifiers: {
-          //   x: gsap.utils.unitize(gsap.utils.wrap(0, -width)),
-          // },
         }
       );
-      // gsap.fromTo(
-      //   ".group1",
-      //   { x: width },
-      //   {
-      //     x: -width,
-      //     ease: "none",
-      //     duration: 7,
-      //     repeat: -1,
-      //     // repeatDelay: 1,
-      //     // modifiers: {
-      //     //   x: gsap.utils.unitize(gsap.utils.wrap(0, -width)),
-      //     // },
-      //   }
-      // );
-      // gsap.fromTo(
-      //   ".group2",
-      //   { x: width },
-      //   {
-      //     x: -width - 200,
-      //     ease: "none",
-      //     duration: 7,
-      //     repeat: -1,
-      //     delay: 1,
-      //     // modifiers: {
-      //     //   x: gsap.utils.unitize(gsap.utils.wrap(0, -width)),
-      //     // },
-      //   }
-      // );
-      // gsap.fromTo(
-      //   ".group3",
-      //   { x: width },
-      //   {
-      //     x: -width - 300,
-      //     ease: "none",
-      //     duration: 7,
-      //     repeat: -1,
-      //     delay: 2,
-      //     // modifiers: {
-      //     //   x: gsap.utils.unitize(gsap.utils.wrap(0, -width)),
-      //     // },
-      //   }
-      // );
-      // gsap.fromTo(
-      //   ".group4",
-      //   { x: width },
-      //   {
-      //     x: -width - 400,
-      //     ease: "none",
-      //     duration: 8,
-      //     repeat: -1,
-      //     delay: 2,
-      //     // modifiers: {
-      //     //   x: gsap.utils.unitize(gsap.utils.wrap(0, -width)),
-      //     // },
-      //   }
-      // );
     },
     { scope: showcaseRef }
   );
@@ -139,59 +77,6 @@ const Showcase = () => {
           />
         ))}
       </div>
-      {/* <div
-        // ref={imgRef}
-        className="relative flex justify-center items-center my-10 bg-red-200"
-      >
-        <div className="flex gap-1 group1">
-          <img
-            src={mainShirt}
-            alt="shirt"
-            className="aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-          />
-          <img
-            src={shirt1}
-            alt="shirt"
-            className="aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-          />
-        </div>
-        <div className="flex gap-1 group2">
-          <img
-            src={shirt2}
-            alt="shirt"
-            className="aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-          />
-          <img
-            src={shirt3}
-            alt="shirt"
-            className="aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-          />
-        </div>
-        <div className="flex gap-1 group3">
-          <img
-            src={shirt4}
-            alt="shirt"
-            className="aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-          />
-          <img
-            src={shirt3}
-            alt="shirt"
-            className="aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-          />
-        </div>
-        <div className="flex gap-1 group4">
-          <img
-            src={shirt4}
-            alt="shirt"
-            className="aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-          />
-          <img
-            src={shirt3}
-            alt="shirt"
-            className="aspect-[3/4] w-[200px] md:w-[300px] lg:w-[400px]"
-          />
-        </div>
-      </div> */}
 
       <div className=" whitespace-nowrap flex gap-4">
         <h1 className="text-4xl md:text-8xl font-zing">ATTENTION!</h1>

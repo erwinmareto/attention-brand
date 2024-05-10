@@ -14,25 +14,6 @@ export default {
       "8xl": ["96px", "106px"],
     },
     extend: {
-      animation: {
-        marquee: "marquee 5s linear infinite",
-        marquee2: "marquee2 15s linear infinite",
-        marquee3: "marquee3 5s linear infinite",
-      },
-      keyframes: {
-        marquee: {
-          "0%": { transform: "translateX(50%)" },
-          "100%": { transform: "translateX(-50%)" },
-        },
-        marquee2: {
-          "0%": { transform: "translateX(-50%)" },
-          "100%": { transform: "translateX(0%)" },
-        },
-        marquee3: {
-          "0%": { transform: "translateX(100%)" },
-          "100%": { transform: "translateX(0%)" },
-        },
-      },
       fontFamily: {
         zing: ["ZingRustBase", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],

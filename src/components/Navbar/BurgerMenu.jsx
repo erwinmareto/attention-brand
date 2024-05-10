@@ -1,5 +1,4 @@
 const BurgerMenu = ({ isOpen, setIsOpen }) => {
-  //   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="hidden max-lg:block">
       <button className="bg-dark-red" onClick={() => setIsOpen(!isOpen)}>
