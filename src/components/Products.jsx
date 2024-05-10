@@ -4,6 +4,7 @@ import { useGSAP } from "@gsap/react";
 import { productsList } from "../constants";
 import Heading from "../parts/Heading";
 import ProductCard from "./ProductCard";
+import { Link } from "react-router-dom";
 
 const Products = () => {
   const productRef = useRef(null);
@@ -51,7 +52,9 @@ const Products = () => {
         />
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 sm:gap-4 gap-14">
           {productsList.map((product) => (
-            <ProductCard key={product.name} {...product} />
+            <Link key={product.id} to={`/products/${product.id}`}>
+              <ProductCard key={product.name} {...product} />
+            </Link>
           ))}
         </div>
       </div>

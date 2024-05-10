@@ -48,8 +48,8 @@ export default {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
       },
       backgroundImage: {
-        hero: "url('assets/images/mesh-gradient.png')",
-        card: "url('assets/images/thumbnail-background.svg')",
+        hero: "url('assets/images/mainShirt.jpg')",
+        nav: "url('assets/images/mesh-gradient.png')",
       },
       screens: {
         wide: "1440px",
