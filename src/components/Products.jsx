@@ -1,10 +1,10 @@
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { productsList } from "../constants";
 import Heading from "../parts/Heading";
 import ProductCard from "./ProductCard";
-import { Link } from "react-router-dom";
 
 const Products = () => {
   const productRef = useRef(null);

@@ -20,7 +20,7 @@ const Hero = () => {
     <section ref={heroRef} className="max-container">
       <div className="w-full min-h-screen flex justify-center items-center bg-hero bg-center">
         <div className="flex flex-col justify-center items-center text-center w-full gap-4">
-          <h1 className="text-[5rem] md:text-[8rem] lg:text-[10rem] font-zing">
+          <h1 className="text-[5rem] md:text-[8rem] lg:text-[10rem] ">
             <span className="letter font-zing transition-colors hover:text-dark-red">
               A
             </span>
