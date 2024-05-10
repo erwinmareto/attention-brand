@@ -12,9 +12,9 @@ const Navbar = () => {
       <header className="padding-x bg-dark-red w-full max-lg:absolute">
         <nav className="flex justify-between items-center">
           <Link to="/">
-            <img src={navLogo} width={80} height={80} />
+            <img src={navLogo} alt="Attention Logo" width={80} height={80} />
           </Link>
-          <ul className="flex flex-1 justify-center items-center gap-16 max-lg:hidden font-montserrat">
+          <ul className="flex flex-1 justify-center items-center gap-16 text-primary max-lg:hidden font-montserrat">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
