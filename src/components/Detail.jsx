@@ -55,7 +55,9 @@ const Detail = () => {
               </div>
               <p className="max-w-lg font-montserrat">{detail}</p>
               <div>
-                <Button>Contact Us</Button>
+                <Button href="https://www.instagram.com/wear.attention?igsh=MTV1OHpmbDNiY2cxdA%3D%3D">
+                  Contact Us
+                </Button>
               </div>
             </div>
 
