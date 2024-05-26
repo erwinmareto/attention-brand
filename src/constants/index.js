@@ -1,13 +1,25 @@
 import { PiButterflyBold, PiMaskHappyBold } from "react-icons/pi";
 import {
-  item1,
-  item2,
-  mainShirt,
+  bblack,
+  bblackFront,
+  black1,
+  black1Back,
+  black2,
+  black2Back,
+  black2Front,
+  bwhite,
+  bwhiteFront,
+  gray,
+  grayBack,
+  grayFront,
   pool,
   shirt1,
   shirt2,
   shirt3,
   shirt4,
+  white,
+  whiteBack,
+  whiteFront,
 } from "../assets/images";
 import { GiLion } from "react-icons/gi";
 import { FaMoneyBillTrendUp } from "react-icons/fa6";
@@ -23,27 +35,39 @@ export const navLinks = [
 export const productsList = [
   {
     id: 1,
-    img: shirt3,
-    name: "item 2",
+    img: black1,
+    name: "item 1",
     info: "Tahanan ayang kasus karena mendua.",
   },
   {
     id: 2,
-    img: item1,
-    name: "Putih",
-    info: "Bersatu kita teguh, berdua kita waduh tidak mungkin. ",
+    img: black2,
+    name: "item 2",
+    info: "Ada yang bergetar tapi bukan nyali.",
   },
   {
     id: 3,
-    img: item2,
+    img: gray,
     name: "abu2",
     info: "Agar tidak tidak dimanfaatkan orang lain jadilah tidak bermanfaat.",
   },
   {
     id: 4,
-    img: shirt4,
-    name: "item 1",
-    info: "Ada yang bergetar tapi bukan nyali.",
+    img: white,
+    name: "Putih",
+    info: "Bersatu kita teguh, berdua kita waduh tidak mungkin. ",
+  },
+  {
+    id: 5,
+    img: bwhite,
+    name: "Putih",
+    info: "Raba Dulu Dong",
+  },
+  {
+    id: 6,
+    img: bblack,
+    name: "item 2",
+    info: "Raba Dulu Dong",
   },
 ];
 
@@ -53,28 +77,40 @@ export const productDetails = [
     name: "item 1",
     detail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum.",
-    images: [mainShirt, shirt1, shirt2, shirt3, shirt4],
+    images: [black1, black1Back],
   },
   {
     id: 2,
-    name: "Putih",
+    name: "item 2",
     detail:
       "Putih putih putih putih sit amet consectetur adipisicing elit. Ipsa, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum.",
-    images: [item1, shirt2, shirt1, shirt4, shirt3],
+    images: [black2, black2Front, black2Back],
   },
   {
     id: 3,
     name: "abu2",
     detail:
       "abus abu abus abu abu dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum.",
-    images: [item1, shirt4, shirt2, shirt3, shirt1],
+    images: [gray, grayFront, grayBack],
   },
   {
     id: 4,
-    name: "item 1",
+    name: "Putih",
     detail:
       "1111111111111111111111111111111bus abu abu dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatum.",
-    images: [shirt4, shirt2, shirt3, item1, shirt1],
+    images: [white, whiteFront, whiteBack],
+  },
+  {
+    id: 5,
+    name: "Sunglasses",
+    detail: "Sunglasses",
+    images: [bwhite, bwhiteFront],
+  },
+  {
+    id: 6,
+    name: "Sunglasses",
+    detail: "Sunglasses",
+    images: [bblack, bblackFront],
   },
 ];
 

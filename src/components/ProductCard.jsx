@@ -13,6 +13,9 @@ const ProductCard = ({ img, name, info }) => {
         <p className="font-montserrat text-slate-gray text-sm mt-2 b-text">
           {info}
         </p>
+        {/* <p className="font-montserrat text-slate-gray text-2xl mt-2 b-text">
+          IDR 120.000
+        </p> */}
       </div>
     </article>
   );
