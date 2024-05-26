@@ -50,7 +50,7 @@ const Products = () => {
           title="Our Products"
           info="Experience top-notch quality and style with our sough-after selections. Discover a world of comfort, design, and value"
         />
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 sm:gap-4 gap-14">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:gap-4 gap-14">
           {productsList.map((product) => (
             <Link key={product.id} to={`/products/${product.id}`}>
               <ProductCard key={product.name} {...product} />
