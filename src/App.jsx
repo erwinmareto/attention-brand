@@ -1,3 +1,4 @@
+import { Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import Benefits from "./components/Benefits";
 import Footer from "./components/Footer";
@@ -6,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import Showcase from "./components/Showcase";
 import Detail from "./components/Detail";
-import { Routes, Route } from "react-router-dom";
+import Blogs from "./components/Blogs";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Products />
               <About />
               <Benefits />
+              <Blogs />
               <Showcase />
               <Footer />
             </>
