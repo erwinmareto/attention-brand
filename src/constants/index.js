@@ -146,3 +146,27 @@ export const benefitsList = [
 export const showcaseImages = [pool, shirt1, shirt2, shirt3, shirt4];
 
 export const sizes = ["S", "M", "L", "XL"];
+
+export const blogs = [
+  {
+    href: "https://msha.ke/wear.attention",
+    img: "https://images.msha.ke/ab71ea9e-57e7-44d8-998e-97017dd7ea8a?auto=format%2Ccompress&cs=tinysrgb&q=30&w=828",
+    title: "Selamat Datang di Attention! : Brand Kaos Dengan Sentuhan Nyeleneh",
+    content:
+      "Halo para pecinta fashion yang selalu mencari tampilan yang berani dan penuh karakter! Kali ini, mari kita berkenalan dengan brand kaos yang mempertontonkan keunikan melalui desain tulisan yang nyeleneh: Attention!",
+  },
+  {
+    href: "https://msha.ke/attention.collection",
+    img: "https://looks.msha.ke/assets/item-image-2-5ec27379d5180ea5b3944dae002daaf2.jpg?auto=format%2Ccompress&cs=tinysrgb&q=30&w=828",
+    title: "Tell the world what you're made of",
+    content:
+      "Apakah Anda bosan dengan kaos biasa-biasa saja yang tidak meninggalkan kesan? Jika iya, maka brand 'Attention' adalah jawabannya. Dengan desain yang tak biasa dan pesan-pesan yang berani, setiap kaos dari Attention bukan hanya sekadar pakaian, tapi juga merupakan medium untuk menyuarakan pendapat dan mengekspresikan kepribadian.",
+  },
+  {
+    href: "https://msha.ke/wearattention",
+    img: "https://looks.msha.ke/assets/look-16-about-a00e53051886db3f9391c31cea049e7d.jpg?auto=format%2Ccompress&cs=tinysrgb&q=30&w=828",
+    title: "Membawa Perhatian dengan Kaos yang Unik dari Attention",
+    content:
+      "Pernahkah Anda memakai kaos yang mampu mencuri perhatian seketika? Bagi pecinta fashion yang selalu mencari gaya yang berbeda, brand 'Attention' bisa menjadi pilihan yang tepat. Dengan konsep unik dan nyeleneh, setiap kaos dari Attention tidak hanya sekadar pakaian, tapi juga merupakan ekspresi dari kepribadian dan gaya hidup yang berani.",
+  },
+];
